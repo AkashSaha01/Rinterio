@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rinterio</title>
     <!-- Google Font CDN -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -28,8 +25,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
-      .font-poppins {
-        font-family: "Poppins", sans-serif;
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
       }
     </style>
     <script>
@@ -116,7 +113,7 @@
       
     </header>
 
-    <main class="md:container mx-auto">
+    <main class="md:container mx-auto ">
      
         <section class="flex flex-col items-center justify-center max-w-[80%] mx-auto text-center">
             <br />
@@ -139,7 +136,7 @@
           </section>
           <br>
           <div class="bg-slate-100 ">
-          <section>
+          <section class="bg-slate-100 w-[100%]">
             
             <div class="bg-slate-100 flex w-full justify-center">
                 <div class="w-full lg:max-w-[80%] flex flex-col lg:flex-row items-center justify-center py-8 px-4">
@@ -213,11 +210,11 @@
                     <div class="bg-pink-200 border border-gray-200 rounded-lg shadow flex flex-col items-start p-2">
                         <img src="./assets/concept.png" class="mb-1" />
                         <div class="flex flex-col items-start">
-                            <a href="#">
+                            <a >
                                 <h5 class="mb-1 text-xl font-bold text-gray-700">Concept</h5>
                             </a>
                             <p class="font-normal text-xs text-gray-700 text-left">
-                                The barn house captivates with its blend of rustic charm and modern.
+                                Here you will find a new concept. New concept, new design, new technlogy
                             </p>
                             <br>
                         </div>
@@ -229,7 +226,7 @@
                     <div class="bg-yellow-300 border border-gray-200 rounded-lg shadow flex flex-col items-start p-2">
                         <img src="./assets/flow-chart.png" class="mb-1" />
                         <div class="flex flex-col items-start">
-                            <a href="#">
+                            <a >
                                 <h5 class="mb-1 text-xl font-bold text-gray-700">Design Process</h5>
                             </a>
                             <p class="font-normal text-xs text-gray-700 text-left">
@@ -245,7 +242,7 @@
                     <div class="bg-green-300 border border-gray-200 rounded-lg shadow flex flex-col items-start p-2">
                         <img src="./assets/vision.png" class="mb-1" />
                         <div class="flex flex-col items-start">
-                            <a href="#">
+                            <a >
                                 <h5 class="mb-1 text-xl font-bold text-gray-700">Supervision</h5>
                             </a>
                             <p class="font-normal text-xs text-gray-700 text-left">
@@ -261,13 +258,13 @@
                     <div class="bg-blue-400 border border-gray-200 rounded-lg shadow flex flex-col items-start p-2">
                         <img src="./assets/budget-planning.png" class="mb-1" />
                         <div class="flex flex-col items-start">
-                            <a href="#">
+                            <a >
                                 <h5 class="mb-1 text-xl font-bold text-gray-700">Budget Planning</h5>
                             </a>
                             <p class="font-normal text-xs text-gray-700 text-left">
                               We will provide you the best plan in your budget.You will get ultimate success
                             </p>
-                            <br>
+                          
                         </div>
                     </div>
                 </div>
@@ -275,44 +272,133 @@
             <br>
             </div>
         </section>
-        <section class="bg-white py-12">
+        <section class="bg-white py-10 ">
           <div class="container mx-auto text-center">
           
             <div class="mb-8">
-              <a  class="bg-green-200 text-green-800 px-6 py-2 rounded-full inline-flex items-center text-black text-sm">
+              <a  class="bg-green-200  px-6 py-2 rounded-full inline-flex items-center text-black text-sm">
                 <i class="fa-solid fa-arrow-right  mr-2 "></i> Explore our Latest works
               </a>
             </div>
             <h2 class="text-3xl font-bold mb-4">Our Latest Portfolio</h2>
         
-            <p class="text-gray-600 max-w-2xl mx-auto mb-12 text-xs">
+            <p class="text-gray-600 max-w-2xl mx-auto mb-8 text-xs">
               The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
             </p>
-        
+            <section class="flex flex-wrap justify-center gap-2 p-4 bg-white">
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div class="w-full lg:w-[80%] flex flex-col lg:flex-row gap-2">
+                <div class="w-full lg:w-[65.5%] bg-white rounded-lg shadow-md py-2 px-4 border-slate-600">
+                  <div class="flex flex-col lg:flex-row items-center gap-4">
+                    <img src="./assets/img1.png" alt="Building" class="w-full lg:w-[40%] rounded-lg border-gray-500">
+                    <div>
+                      <h2 class="text-xl font-semibold">Commercial</h2>
+                      <p class="text-xs text-gray-500">
+                        The barn house captivates with its blend of rustic charm and modern.
+                      </p>
+                      <br>
+                      <a  class="text-black-500 font-bold flex items-center text-sm">
+                        View Details <i class="fa-solid fa-arrow-right bg-green-500 text-black -rotate-45 rounded-full p-1 mx-2"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full lg:w-[34%] bg-white rounded-lg shadow-lg p-4">
+                  <div class="flex items-center gap-4">
+                    <img src="./assets/img2.png" alt="Building" class="w-full rounded-lg">
+                  </div>
+                </div>
+              </div>
+            
+              <div class="w-full lg:w-[80%] flex flex-col lg:flex-row gap-2 mt-4">
+                <div class="w-full lg:w-[23.75%] bg-white rounded-lg shadow-lg p-4">
+                  <div class="flex items-center gap-4">
+                    <img src="./assets/img3.png" alt="Building" class="w-full rounded-lg">
+                  </div>
+                </div>
+                <div class="w-full lg:w-[48.50%] bg-white rounded-lg shadow-md py-6 px-4 border-slate-600">
+                  <div class="flex flex-col lg:flex-row items-center gap-4">
+                    <img src="./assets/img4.png" alt="Building" class="w-full lg:w-[40%] rounded-lg border-gray-500">
+                    <div>
+                      <h2 class="text-xl font-semibold">Commercial</h2>
+                      <p class="text-xs text-gray-500">
+                        The barn house captivates with its blend of rustic charm and modern.
+                      </p>
+                      <br>
+                      <a  class="text-black-500 font-bold flex items-center text-sm">
+                        View Details <i class="fa-solid fa-arrow-right bg-green-500 text-black -rotate-45 rounded-full p-1 mx-2"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full lg:w-[23.75%] bg-white rounded-lg shadow-lg p-4">
+                  <div class="flex items-center gap-4">
+                    <img src="./assets/img5.png" alt="Building" class="w-full rounded-lg">
+                  </div>
+                </div>
+              </div>
+            </section> 
+         </div>
+        </section>
+        <section class="w-full">
+        
+          <div class="w-full bg-slate-300 flex flex-col lg:flex-row justify-center items-center px-4 py-8">
+            
+         
+            <div class="w-full lg:w-[35%] flex flex-col justify-center items-center text-center font-bold mx-auto mb-6 lg:mb-0">
+              <h1 class="text-2xl lg:text-4xl">Our Interior Designs</h1>
+              <br>
+              <h3 class="text-lg lg:text-2xl text-gray-600">Transform Your Space with Our Expert Interior Designs</h3>
+              <br>
+              <a class="bg-green-500 text-gray-900 px-4 py-2 lg:px-2 lg:py-3 text-sm rounded-full font-semibold inline-flex items-center justify-center">
+                Have a look
+              </a>
+            </div>
+            
+         
+            <div class="w-full lg:w-[65%] flex flex-col gap-1 relative">
               
+             
+              <div class="flex flex-wrap justify-center gap-2 lg:hidden">
+             
+                <img src="./assets/challange (2).jpg" alt="Building" class="rounded-lg w-[48%] shadow-lg">
+                <img src="./assets/challange (1).jpg" alt="Building" class="rounded-lg w-[48%] shadow-lg">
+                
+                
+                <div class="w-full flex justify-center gap-2">
+                  <img src="./assets/challange (3).jpg" alt="Building" class="rounded-lg w-[48%] shadow-lg">
+                  
+                  
+                  <div class="w-[48%] text-center text-white bg-black bg-opacity-50 p-2 px-4 rounded-lg flex flex-col justify-center items-center">
+                    <h2 class="font-bold"><span class="text-2xl lg:text-4xl text-green-300">4.7</span> Ratings</h2>
+                    <h3>2772 Clients</h3>
+                  </div>
+                </div>
+              </div>
               
-              <div class="bg-white shadow-lg rounded-lg p-6">
-                <img src="path_to_image" alt="Commercial" class="rounded-lg mb-4">
-                <h3 class="text-lg font-bold mb-2">Commercial</h3>
-                <p class="text-gray-600 mb-4">
-                  The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern.
-                </p>
-                <a href="#" class="text-green-500 font-semibold inline-flex items-center">
-                  View Details <i class="fa-solid fa-arrow-right rotate-45 ml-2"></i>
-                </a>
+             
+              <div class="hidden lg:flex flex-col lg:flex-row justify-center gap-2">
+                <img src="./assets/challange (2).jpg" alt="Building" class="rounded-lg w-[20%] shadow-lg mx-auto lg:mx-0">
+                <img src="./assets/challange (1).jpg" alt="Building" class="rounded-lg w-[20%] shadow-lg mx-auto lg:mx-0">
+                <img src="./assets/challange (3).jpg" alt="Building" class="rounded-lg w-[20%] shadow-lg mx-auto lg:mx-0">
               </div>
         
-              
-              <div class="bg-white shadow-lg rounded-lg p-6">
-              
+             
+              <div class="hidden lg:block text-center text-white bg-black bg-opacity-50 p-2 px-4 rounded-lg absolute lg:top-[60%] lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <h2 class="font-bold"><span class="text-2xl lg:text-4xl text-green-300">4.7</span> Ratings</h2>
+                <h3>2772 Clients</h3>
               </div>
-        
-            
-        
+              
+              
+              <div class="flex justify-center mt-4 lg:mt-0">
+                <img src="./assets/pexels-atbo-66986-245240.jpg" alt="Building" class="rounded-lg w-[80%] lg:w-[62%] shadow-lg">
+              </div>
             </div>
           </div>
+        </section>
+        
+        <br>
+
         </section>
         
         <section class="flex justify-center items-center  w-[100%]" style=" background-image:url('./assets/bg.jpg'); background-position: center; background-size: cover; background-repeat: repeat;">
@@ -350,7 +436,7 @@
       </div>
    
     </main>
-
+<br>
    
     <footer class="footer bg-black text-neutral-content p-10 w-full flex justify-center items-center">
       <div class="flex flex-col items-center justify-center text-center w-full">
@@ -366,7 +452,7 @@
           <a >Blogs</a>
           <a >Contact Us</a>
         </div>
-        <a href="" class="bg-green-500 text-gray-900 px-6 py-3 rounded-full font-semibold inline-flex items-center">
+        <a  class="bg-green-500 text-gray-900 px-6 py-3 rounded-full font-semibold inline-flex items-center">
           Book Consult
           <i class="fa-solid fa-arrow-right bg-black text-white -rotate-45 rounded-full p-2 ml-2"></i>
         </a>
